@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:background="@drawable/layout_bg">
+
+
+
+    <TextView
+        android:id="@+id/quoteTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down."
+        android:textColor="#F1F1F1"
+        android:textSize="18sp" />
+
+    <TextView
+    android:id="@+id/authorTextView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="15dp" android:layout_marginBottom="15dp"
+    android:layout_gravity="end"
+    android:fontFamily="sans-serif-light"
+    android:text="Oprah Winfrey"
+    android:textColor="#B1B1B1"
+    android:textSize="14sp"
+    android:textStyle="normal|italic"
+     />
+
+</LinearLayout>

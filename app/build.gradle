@@ -30,8 +30,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding true
+    }
 }
-
+def lottieVersion = "3.4.0"
 dependencies {
     //retrofit2
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -40,6 +43,10 @@ dependencies {
     //coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0'
+
+
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
